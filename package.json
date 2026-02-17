@@ -1,5 +1,5 @@
 {
-  "name": "@scrapebit/sdk",
+  "name": "@dataotto/scrapebit-sdk",
   "version": "1.0.0",
   "description": "Official Node.js SDK for Scrapebit - AI-powered web scraping API",
   "main": "dist/index.js",

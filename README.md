@@ -2,19 +2,19 @@
 
 The official Node.js SDK for [Scrapebit](https://scrapebit.com) - AI-powered web scraping API.
 
-[![npm version](https://img.shields.io/npm/v/@scrapebit/sdk.svg)](https://www.npmjs.com/package/@scrapebit/sdk)
+[![npm version](https://img.shields.io/npm/v/@dataotto/scrapebit-sdk.svg)](https://www.npmjs.com/package/@dataotto/scrapebit-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
 
 ```bash
-npm install @scrapebit/sdk
+npm install @dataotto/scrapebit-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { Scrapebit } from '@scrapebit/sdk';
+import { Scrapebit } from '@dataotto/scrapebit-sdk';
 
 const scrapebit = new Scrapebit('sb_live_your_api_key');
 
@@ -38,7 +38,7 @@ console.log(result.data);
 ### Initialize the Client
 
 ```typescript
-import { Scrapebit } from '@scrapebit/sdk';
+import { Scrapebit } from '@dataotto/scrapebit-sdk';
 
 const scrapebit = new Scrapebit('sb_live_your_api_key');
 
@@ -206,7 +206,7 @@ import {
   RateLimitError,
   InsufficientCreditsError,
   ValidationError,
-} from '@scrapebit/sdk';
+} from '@dataotto/scrapebit-sdk';
 
 try {
   const result = await scrapebit.content.scrape({
@@ -253,7 +253,7 @@ import type {
   PdfOptions,
   ScreenshotOptions,
   UsageInfo,
-} from '@scrapebit/sdk';
+} from '@dataotto/scrapebit-sdk';
 ```
 
 ## Requirements
